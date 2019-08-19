@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p span {
+    color: red;
+    font-weight: bold;
+}
+
+nav {
+    padding: 10px;
+    background: black;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: color 1.5s;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.products {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background: green; */
+}
+
+.product {
+    width: 300px;
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: pink;
+    border-radius: 20px;
+}
+
+.product-2 {
+    background: red;
+}
+
+.product img {
+    width: 100%;
+}
+
+.products h4 {
+    font-size: 24px;
+    text-align: center;
+    /* background: red; */
+}
+
+.products .price {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    /* background: red; */
+}
+
+.products .price::after {
+    content: " eur";
+}
+
+form {
+    margin: 20px;
+}
+
+form input[type=submit] {
+    color: red;
+}
+
+table {
+    margin: 20px;
+    background: white;
+}
+
+table,
+td {
+    border: 1px solid black;
+}
+
+th {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+    background: linear-gradient(red, white);
+}
+
+td {
+    padding: 10px;
+}
+
+/* #nav-items {
+    border: 1px dashed white;
+} */
+
+nav ul {
+    border: 10px solid #8a2be1;
+}
